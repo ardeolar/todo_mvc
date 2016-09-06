@@ -73,3 +73,12 @@ var todoList = {
 };
 
 
+var handlers = {
+  displayTodos: function() {
+    todoList.displayTodos();
+  },
+
+  toggleAll: function() {
+
+  }
+};
