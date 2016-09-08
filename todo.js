@@ -75,10 +75,22 @@ var todoList = {
 
 var handlers = {
   displayTodos: function() {
-    todoList.displayTodos();
+    todoList.displayTodos(); 
   },
 
   toggleAll: function() {
     todoList.toggleAll();
+  },
+
+  addTodo: function() {
+    var addTodoTextInput = document.getElementById('addTodoTextInput');
+    todoList.addTodo(addTodoTextInput.value);
+    addTodoTextInput.value = '';
   }
 };
+
+
+
+
+
+
