@@ -100,7 +100,14 @@ var handlers = {
     var deleteTodoPositionInput = document.getElementById('deleteTodoPositionInput');
     todoList.deleteTodo(deleteTodoPositionInput.valueAsNumber);
     deleteTodoPositionInput.value = '';
+  },
+  
+  toggleCompleted: function() {
+    var toggleCompletedPositionInput = document.getElementById('toggleCompletedPositionInput');
+    todoList.togglecompleted(toggleCompletedPositionInput.valueAsNumber);
+    toggleCompletedPositionInput.value = '';
   }
+
 };
 
 
